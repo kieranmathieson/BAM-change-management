@@ -1,0 +1,16 @@
+sheep.page:
+  path: '/sheep'
+  defaults:
+    _controller: '\Drupal\sheep\Controller\SheepController::noSheepCount'
+    _title: 'Sheep'
+  requirements:
+    _permission: 'liking sheep'
+sheep.count.page:
+  path: '/sheep/{count}'
+  defaults:
+    _controller: '\Drupal\sheep\Controller\SheepController::sheepCount'
+    _title: 'Counted sheep'
+  requirements:
+    _permission: 'liking sheep'
+route_callbacks:
+  - '\Drupal\sheep\Routing\CustomRoutes::routes'

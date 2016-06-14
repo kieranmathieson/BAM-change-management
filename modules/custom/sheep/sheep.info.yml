@@ -1,0 +1,6 @@
+name: Sheep
+description: Adds sheep to your site.
+package: Custom
+
+type: module
+core: 8.x

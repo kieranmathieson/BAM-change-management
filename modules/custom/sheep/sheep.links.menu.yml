@@ -1,0 +1,5 @@
+sheep.page:
+  title: 'Sheep'
+  description: 'Countless sheep'
+  parent: system.admin_content
+  route_name: sheep.page
